@@ -11,7 +11,10 @@ import SwiftUI
 struct MyF1ProjectApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+          RootTabViewAssembly().build(
+            moduleOutput: nil,
+            completion: nil
+          )
         }
     }
 }

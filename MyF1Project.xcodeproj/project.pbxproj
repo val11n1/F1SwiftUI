@@ -7,13 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0367D278754904D3BE511680 /* RootTabViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C317BEB17A306D324A8ABDF9 /* RootTabViewModelProtocol.swift */; };
+		059D682A63D923320C29D020 /* RootTabViewIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5F5356FA653BF21282E9CC /* RootTabViewIntent.swift */; };
+		15FBC62D9656D5D76DCDC9A9 /* RootTabViewAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09987810F96248EB5856262 /* RootTabViewAssembly.swift */; };
+		3668EDE6FF01A3176662F0F9 /* SeasonStandingIntentProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437AB9510CB75DA42A92F061 /* SeasonStandingIntentProtocol.swift */; };
 		39B094C72C7A4B3000098F31 /* MyF1ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B094C62C7A4B3000098F31 /* MyF1ProjectApp.swift */; };
-		39B094C92C7A4B3000098F31 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B094C82C7A4B3000098F31 /* ContentView.swift */; };
 		39B094CB2C7A4B3300098F31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39B094CA2C7A4B3300098F31 /* Assets.xcassets */; };
 		39B094CE2C7A4B3300098F31 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39B094CD2C7A4B3300098F31 /* Preview Assets.xcassets */; };
 		39B094D82C7A4B3300098F31 /* MyF1ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B094D72C7A4B3300098F31 /* MyF1ProjectTests.swift */; };
 		39B094E22C7A4B3300098F31 /* MyF1ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B094E12C7A4B3300098F31 /* MyF1ProjectUITests.swift */; };
 		39B094E42C7A4B3300098F31 /* MyF1ProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B094E32C7A4B3300098F31 /* MyF1ProjectUITestsLaunchTests.swift */; };
+		39D1D82A2C7B14FF005464CF /* MVIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D1D8292C7B14FF005464CF /* MVIContainer.swift */; };
+		39D1D82C2C7B1528005464CF /* RouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D1D82B2C7B1528005464CF /* RouterProtocol.swift */; };
+		39D1D82E2C7B154E005464CF /* RouterScreenProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D1D82D2C7B154E005464CF /* RouterScreenProtocol.swift */; };
+		39D1D8312C7B15A4005464CF /* RouterAlertModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D1D8302C7B15A4005464CF /* RouterAlertModifier.swift */; };
+		39D1D8332C7B15F1005464CF /* RouterCloseModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D1D8322C7B15F1005464CF /* RouterCloseModifier.swift */; };
+		39D1D8352C7B161F005464CF /* RouterNavigationStackModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D1D8342C7B161F005464CF /* RouterNavigationStackModifier.swift */; };
+		39D1D8372C7B1644005464CF /* RouterNavigationViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D1D8362C7B1644005464CF /* RouterNavigationViewModifier.swift */; };
+		39D1D8392C7B1A11005464CF /* RouterSheetModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D1D8382C7B1A11005464CF /* RouterSheetModifier.swift */; };
+		468D3D98FAA5B0E7D0E700CC /* SeasonStandingIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B88AE685EAB5E92668EBC3 /* SeasonStandingIntent.swift */; };
+		472BF2A362658EE24C45DEEE /* RootTabViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2941FAAD5747B918BBA8D00E /* RootTabViewView.swift */; };
+		6A69C7E49581204EB094DB57 /* SeasonStandingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED97270F307AA24FE980FCC2 /* SeasonStandingRouter.swift */; };
+		7A8D2D7038099D42D9252CCA /* SeasonStandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3005CC0CFDCC1D2C14EF0BB /* SeasonStandingView.swift */; };
+		896A095A6660C867446B8012 /* SeasonStandingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E549D0722870A4C26B63B8E /* SeasonStandingModel.swift */; };
+		D21D5794F3F23069899D43D2 /* RootTabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025AA2C307C13E47ADEA30CA /* RootTabViewModel.swift */; };
+		DAD61D02D00ABA89208009AB /* SeasonStandingAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED27327E34CDC44EECFF08B /* SeasonStandingAssembly.swift */; };
+		E25ADB63FBE04831D470C850 /* SeasonStandingModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8519D3EDFFDB76047F6EBA /* SeasonStandingModelProtocol.swift */; };
+		F6FC2E716943C3578D34BBF6 /* RootTabViewIntentProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AC352A71DF05DD53BBDF33 /* RootTabViewIntentProtocol.swift */; };
+		FC3BECDB4F1D83B12838D4D6 /* RootTabViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26369E4CA1630B46E919B7C /* RootTabViewRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +55,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		025AA2C307C13E47ADEA30CA /* RootTabViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RootTabViewModel.swift; sourceTree = "<group>"; };
+		1ED27327E34CDC44EECFF08B /* SeasonStandingAssembly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SeasonStandingAssembly.swift; sourceTree = "<group>"; };
+		2941FAAD5747B918BBA8D00E /* RootTabViewView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RootTabViewView.swift; sourceTree = "<group>"; };
 		39B094C32C7A4B3000098F31 /* MyF1Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyF1Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39B094C62C7A4B3000098F31 /* MyF1ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyF1ProjectApp.swift; sourceTree = "<group>"; };
-		39B094C82C7A4B3000098F31 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		39B094CA2C7A4B3300098F31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39B094CD2C7A4B3300098F31 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		39B094D32C7A4B3300098F31 /* MyF1ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyF1ProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +67,25 @@
 		39B094DD2C7A4B3300098F31 /* MyF1ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyF1ProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39B094E12C7A4B3300098F31 /* MyF1ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyF1ProjectUITests.swift; sourceTree = "<group>"; };
 		39B094E32C7A4B3300098F31 /* MyF1ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyF1ProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		39D1D8292C7B14FF005464CF /* MVIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVIContainer.swift; sourceTree = "<group>"; };
+		39D1D82B2C7B1528005464CF /* RouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterProtocol.swift; sourceTree = "<group>"; };
+		39D1D82D2C7B154E005464CF /* RouterScreenProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterScreenProtocol.swift; sourceTree = "<group>"; };
+		39D1D8302C7B15A4005464CF /* RouterAlertModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterAlertModifier.swift; sourceTree = "<group>"; };
+		39D1D8322C7B15F1005464CF /* RouterCloseModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterCloseModifier.swift; sourceTree = "<group>"; };
+		39D1D8342C7B161F005464CF /* RouterNavigationStackModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterNavigationStackModifier.swift; sourceTree = "<group>"; };
+		39D1D8362C7B1644005464CF /* RouterNavigationViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterNavigationViewModifier.swift; sourceTree = "<group>"; };
+		39D1D8382C7B1A11005464CF /* RouterSheetModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterSheetModifier.swift; sourceTree = "<group>"; };
+		437AB9510CB75DA42A92F061 /* SeasonStandingIntentProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SeasonStandingIntentProtocol.swift; sourceTree = "<group>"; };
+		51B88AE685EAB5E92668EBC3 /* SeasonStandingIntent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SeasonStandingIntent.swift; sourceTree = "<group>"; };
+		6E549D0722870A4C26B63B8E /* SeasonStandingModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SeasonStandingModel.swift; sourceTree = "<group>"; };
+		A3005CC0CFDCC1D2C14EF0BB /* SeasonStandingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SeasonStandingView.swift; sourceTree = "<group>"; };
+		AA5F5356FA653BF21282E9CC /* RootTabViewIntent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RootTabViewIntent.swift; sourceTree = "<group>"; };
+		B4AC352A71DF05DD53BBDF33 /* RootTabViewIntentProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RootTabViewIntentProtocol.swift; sourceTree = "<group>"; };
+		C09987810F96248EB5856262 /* RootTabViewAssembly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RootTabViewAssembly.swift; sourceTree = "<group>"; };
+		C26369E4CA1630B46E919B7C /* RootTabViewRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RootTabViewRouter.swift; sourceTree = "<group>"; };
+		C317BEB17A306D324A8ABDF9 /* RootTabViewModelProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RootTabViewModelProtocol.swift; sourceTree = "<group>"; };
+		ED97270F307AA24FE980FCC2 /* SeasonStandingRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SeasonStandingRouter.swift; sourceTree = "<group>"; };
+		EF8519D3EDFFDB76047F6EBA /* SeasonStandingModelProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SeasonStandingModelProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +113,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A6CED638D6B067100B7F59F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C317BEB17A306D324A8ABDF9 /* RootTabViewModelProtocol.swift */,
+				025AA2C307C13E47ADEA30CA /* RootTabViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2CF4845EA9C95465AA1DE713 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				1ED27327E34CDC44EECFF08B /* SeasonStandingAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
 		39B094BA2C7A4B3000098F31 = {
 			isa = PBXGroup;
 			children = (
@@ -95,9 +154,9 @@
 			isa = PBXGroup;
 			children = (
 				39B094C62C7A4B3000098F31 /* MyF1ProjectApp.swift */,
-				39B094C82C7A4B3000098F31 /* ContentView.swift */,
-				39B094CA2C7A4B3300098F31 /* Assets.xcassets */,
-				39B094CC2C7A4B3300098F31 /* Preview Content */,
+				39B094F12C7A4C1700098F31 /* Classes */,
+				39B094F22C7A4C2900098F31 /* Resources */,
+				39B094F32C7A4C3D00098F31 /* SupportingFiles */,
 			);
 			path = MyF1Project;
 			sourceTree = "<group>";
@@ -125,6 +184,244 @@
 				39B094E32C7A4B3300098F31 /* MyF1ProjectUITestsLaunchTests.swift */,
 			);
 			path = MyF1ProjectUITests;
+			sourceTree = "<group>";
+		};
+		39B094F12C7A4C1700098F31 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				39B094F42C7A4C8C00098F31 /* ApplicationLayer */,
+				39B094F52C7A4C9900098F31 /* CoreLayer */,
+				39B094F62C7A4E9600098F31 /* BusinessLogicLayer */,
+				39B094F72C7A4EBC00098F31 /* PresentationLayer */,
+				39B094F82C7A4ED000098F31 /* Models */,
+				39B094F92C7A4F9400098F31 /* Helpers */,
+				39D1D8262C7B0DAF005464CF /* Extensions */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		39B094F22C7A4C2900098F31 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				39B094CA2C7A4B3300098F31 /* Assets.xcassets */,
+				39B094CC2C7A4B3300098F31 /* Preview Content */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		39B094F32C7A4C3D00098F31 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		39B094F42C7A4C8C00098F31 /* ApplicationLayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ApplicationLayer;
+			sourceTree = "<group>";
+		};
+		39B094F52C7A4C9900098F31 /* CoreLayer */ = {
+			isa = PBXGroup;
+			children = (
+				39D1D8212C7B0855005464CF /* DataStore */,
+			);
+			path = CoreLayer;
+			sourceTree = "<group>";
+		};
+		39B094F62C7A4E9600098F31 /* BusinessLogicLayer */ = {
+			isa = PBXGroup;
+			children = (
+				39D1D8222C7B0910005464CF /* Services */,
+			);
+			path = BusinessLogicLayer;
+			sourceTree = "<group>";
+		};
+		39B094F72C7A4EBC00098F31 /* PresentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				39D1D8252C7B0B5D005464CF /* ScreenModules */,
+				39D1D8232C7B0AD7005464CF /* Common */,
+				39D1D8242C7B0B44005464CF /* Root */,
+			);
+			path = PresentationLayer;
+			sourceTree = "<group>";
+		};
+		39B094F82C7A4ED000098F31 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		39B094F92C7A4F9400098F31 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		39D1D8212C7B0855005464CF /* DataStore */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataStore;
+			sourceTree = "<group>";
+		};
+		39D1D8222C7B0910005464CF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		39D1D8232C7B0AD7005464CF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				39D1D8282C7B14E9005464CF /* MVIContainer */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		39D1D8242C7B0B44005464CF /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				49DEC01EB487CF9CB5C0DEA3 /* RootTabView */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		39D1D8252C7B0B5D005464CF /* ScreenModules */ = {
+			isa = PBXGroup;
+			children = (
+				4519F03BCF4995AF0F3C8165 /* SeasonStanding */,
+			);
+			path = ScreenModules;
+			sourceTree = "<group>";
+		};
+		39D1D8262C7B0DAF005464CF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		39D1D8282C7B14E9005464CF /* MVIContainer */ = {
+			isa = PBXGroup;
+			children = (
+				39D1D8292C7B14FF005464CF /* MVIContainer.swift */,
+				39D1D82B2C7B1528005464CF /* RouterProtocol.swift */,
+				39D1D82D2C7B154E005464CF /* RouterScreenProtocol.swift */,
+				39D1D82F2C7B1563005464CF /* Modifiers */,
+			);
+			path = MVIContainer;
+			sourceTree = "<group>";
+		};
+		39D1D82F2C7B1563005464CF /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				39D1D8302C7B15A4005464CF /* RouterAlertModifier.swift */,
+				39D1D8322C7B15F1005464CF /* RouterCloseModifier.swift */,
+				39D1D8342C7B161F005464CF /* RouterNavigationStackModifier.swift */,
+				39D1D8362C7B1644005464CF /* RouterNavigationViewModifier.swift */,
+				39D1D8382C7B1A11005464CF /* RouterSheetModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		3E880DA9986FF5B537E79C6B /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				C26369E4CA1630B46E919B7C /* RootTabViewRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		4519F03BCF4995AF0F3C8165 /* SeasonStanding */ = {
+			isa = PBXGroup;
+			children = (
+				2CF4845EA9C95465AA1DE713 /* Assembly */,
+				8D0C842A288F8D98A8FAC381 /* Intent */,
+				B39043E18713A06E1CA28092 /* Model */,
+				5FA5CB8C7A964A8489CD4DA4 /* Router */,
+				82FCC6DD231AAFAAC06A1591 /* View */,
+			);
+			name = SeasonStanding;
+			path = F1SwiftUI/Classes/PresentationLayer/ScreenModules/SeasonStanding;
+			sourceTree = SOURCE_ROOT;
+		};
+		49DEC01EB487CF9CB5C0DEA3 /* RootTabView */ = {
+			isa = PBXGroup;
+			children = (
+				BBC74094CF1028323AB5FC5A /* Assembly */,
+				D1A46D30C9C498B8C7C44AEF /* Intent */,
+				0A6CED638D6B067100B7F59F /* Model */,
+				3E880DA9986FF5B537E79C6B /* Router */,
+				B959292B2F4FCAC8CC44B8C9 /* View */,
+			);
+			name = RootTabView;
+			path = MyF1Project/Classes/PresentationLayer/Root/RootTabView;
+			sourceTree = SOURCE_ROOT;
+		};
+		5FA5CB8C7A964A8489CD4DA4 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				ED97270F307AA24FE980FCC2 /* SeasonStandingRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		82FCC6DD231AAFAAC06A1591 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A3005CC0CFDCC1D2C14EF0BB /* SeasonStandingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8D0C842A288F8D98A8FAC381 /* Intent */ = {
+			isa = PBXGroup;
+			children = (
+				437AB9510CB75DA42A92F061 /* SeasonStandingIntentProtocol.swift */,
+				51B88AE685EAB5E92668EBC3 /* SeasonStandingIntent.swift */,
+			);
+			path = Intent;
+			sourceTree = "<group>";
+		};
+		B39043E18713A06E1CA28092 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF8519D3EDFFDB76047F6EBA /* SeasonStandingModelProtocol.swift */,
+				6E549D0722870A4C26B63B8E /* SeasonStandingModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B959292B2F4FCAC8CC44B8C9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2941FAAD5747B918BBA8D00E /* RootTabViewView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BBC74094CF1028323AB5FC5A /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				C09987810F96248EB5856262 /* RootTabViewAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		D1A46D30C9C498B8C7C44AEF /* Intent */ = {
+			isa = PBXGroup;
+			children = (
+				B4AC352A71DF05DD53BBDF33 /* RootTabViewIntentProtocol.swift */,
+				AA5F5356FA653BF21282E9CC /* RootTabViewIntent.swift */,
+			);
+			path = Intent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +554,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39B094C92C7A4B3000098F31 /* ContentView.swift in Sources */,
 				39B094C72C7A4B3000098F31 /* MyF1ProjectApp.swift in Sources */,
+				39D1D82C2C7B1528005464CF /* RouterProtocol.swift in Sources */,
+				39D1D82A2C7B14FF005464CF /* MVIContainer.swift in Sources */,
+				39D1D8352C7B161F005464CF /* RouterNavigationStackModifier.swift in Sources */,
+				39D1D8392C7B1A11005464CF /* RouterSheetModifier.swift in Sources */,
+				39D1D8312C7B15A4005464CF /* RouterAlertModifier.swift in Sources */,
+				39D1D8372C7B1644005464CF /* RouterNavigationViewModifier.swift in Sources */,
+				39D1D8332C7B15F1005464CF /* RouterCloseModifier.swift in Sources */,
+				39D1D82E2C7B154E005464CF /* RouterScreenProtocol.swift in Sources */,
+				15FBC62D9656D5D76DCDC9A9 /* RootTabViewAssembly.swift in Sources */,
+				F6FC2E716943C3578D34BBF6 /* RootTabViewIntentProtocol.swift in Sources */,
+				059D682A63D923320C29D020 /* RootTabViewIntent.swift in Sources */,
+				0367D278754904D3BE511680 /* RootTabViewModelProtocol.swift in Sources */,
+				D21D5794F3F23069899D43D2 /* RootTabViewModel.swift in Sources */,
+				FC3BECDB4F1D83B12838D4D6 /* RootTabViewRouter.swift in Sources */,
+				472BF2A362658EE24C45DEEE /* RootTabViewView.swift in Sources */,
+				DAD61D02D00ABA89208009AB /* SeasonStandingAssembly.swift in Sources */,
+				3668EDE6FF01A3176662F0F9 /* SeasonStandingIntentProtocol.swift in Sources */,
+				468D3D98FAA5B0E7D0E700CC /* SeasonStandingIntent.swift in Sources */,
+				E25ADB63FBE04831D470C850 /* SeasonStandingModelProtocol.swift in Sources */,
+				896A095A6660C867446B8012 /* SeasonStandingModel.swift in Sources */,
+				6A69C7E49581204EB094DB57 /* SeasonStandingRouter.swift in Sources */,
+				7A8D2D7038099D42D9252CCA /* SeasonStandingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,15 +739,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MyF1Project/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MyF1Project/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = CH9978FC75;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,15 +767,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MyF1Project/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MyF1Project/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = CH9978FC75;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
